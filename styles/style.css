@@ -33,6 +33,7 @@
   flex-direction: column;
   line-height: 1.4;
   font-style: normal;
+  max-width: 265px;
 }
 
 .header__address {
@@ -231,18 +232,29 @@
   padding: 0 50px 82px;
 }
 
-.navigation-list-footer {
+.footer__menu {
+  display: flex;
   flex-direction: column;
 }
 
-.social-links {
+.footer__menu-list {
+  list-style: none;
+  text-align: center;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
   width: 240px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  justify-self: end;
 }
 
-.link-item {
+.footer__social-link {
   width: 48px;
   list-style: none;
 }
