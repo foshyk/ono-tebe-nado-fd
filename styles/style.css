@@ -135,6 +135,8 @@
 
 .lots__look-more-link {
   text-decoration: underline;
+  padding-left: 40px;
+  font-size: 20px;
 }
 
 .card-link {
@@ -172,11 +174,6 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 22px;
-}
-
-.lots__look-more-link {
-  padding-left: 40px;
-  font-size: 20px;
 }
 
 .card__text {
