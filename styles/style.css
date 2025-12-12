@@ -133,6 +133,10 @@
   color: #fff;
 }
 
+.lots__look-more-link {
+  text-decoration: underline;
+}
+
 .card-link {
   height: 100%;
   text-decoration: none;
