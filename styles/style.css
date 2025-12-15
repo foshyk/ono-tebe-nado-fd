@@ -49,6 +49,7 @@
   background-position: center;
   padding: 152px 50px 50px;
   color: #fff;
+  z-index: 1;
 }
 
 .overlay {
@@ -58,7 +59,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: -1;
 }
 
 .cover__title {
@@ -69,7 +70,6 @@
   font-size: 100px;
   letter-spacing: 30px;
   line-height: 1.34;
-  z-index: 2;
 }
 
 .aligned-text {
@@ -92,15 +92,14 @@
   position: relative;
   display: grid;
   grid-template-columns: 3fr 1.02fr;
-  grid-template-rows: 51px;
   font-size: 22px;
   text-transform: uppercase;
-  z-index: 2;
 }
 
 .cover__description-text {
   align-content: center;
   word-spacing: 19px;
+  padding: 13px 0;
 }
 
 .bet-button {
@@ -157,6 +156,7 @@
   justify-content: space-between;
   padding: 48px 40px;
   line-height: 1.2;
+  z-index: 1;
 }
 
 .card_type_film {
@@ -177,13 +177,11 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 22px;
-  z-index: 2;
 }
 
 .card__text {
   position: relative;
   font-size: 20px;
-  z-index: 2;
 }
 
 .about {
